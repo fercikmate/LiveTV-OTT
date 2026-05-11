@@ -1,0 +1,29 @@
+{
+  "serviceId": "ch_001",
+  "name": "Kafica HD",
+  "type": "TV",
+  "streamUri": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8",
+  "metadataUri": "http://192.168.1.XX:3000/metadata/ch_001",
+  "logoUri": "https://example.com/logo.png",
+  "description": "Premium coffee-themed content for developers.",
+  "rating": "TV-G",
+  "broadcastOnid": 1,
+  "broadcastTsid": 1,
+  "broadcastSid": 1,
+  "tracks": [
+    {
+      "type": "video",
+      "id": "v1",
+      "language": "en",
+      "width": 1920,
+      "height": 1080,
+      "codec": "h264"
+    },
+    {
+      "type": "audio",
+      "id": "a1",
+      "language": "en",
+      "codec": "aac"
+    }
+  ]
+}

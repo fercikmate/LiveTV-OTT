@@ -1,0 +1,69 @@
+{
+  "services": [
+    {
+      "serviceId": "ott-001",
+      "name": "Kaltura Stream 1",
+      "type": "TYPE_OTT",
+      "metadataUri": "local://metadata/ott-001",
+      "streamUri": "http://cdnapi.kaltura.com/p/1878761/sp/187876100/playManifest/entryId/1_2xvajead/flavorIds/1_tl01409m,1_kptb3ez8,1_re3akioy,1_wuylsxwp/format/applehttp/protocol/http/a.m3u8",
+      "description": "Kaltura test stream 1",
+      "logoUri": "",
+      "rating": "TV-G",
+      "broadcastOnid": 30592,
+      "broadcastTsid": 1,
+      "broadcastSid": 101
+    },
+    {
+      "serviceId": "ott-002",
+      "name": "Kaltura Stream 2",
+      "type": "TYPE_OTT",
+      "metadataUri": "local://metadata/ott-002",
+      "streamUri": "http://cdnbakmi.kaltura.com/p/243342/sp/24334200/playManifest/entryId/0_uka1msg4/flavorIds/1_vqhfu6uy,1_80sohj7p/format/applehttp/protocol/http/a.m3u8",
+      "description": "Kaltura test stream 2",
+      "logoUri": "",
+      "rating": "TV-G",
+      "broadcastOnid": 30592,
+      "broadcastTsid": 1,
+      "broadcastSid": 102
+    },
+    {
+      "serviceId": "ott-003",
+      "name": "Captions Test",
+      "type": "TYPE_OTT",
+      "metadataUri": "local://metadata/ott-003",
+      "streamUri": "http://playertest.longtailvideo.com/adaptive/captions/playlist.m3u8",
+      "description": "Captions test stream",
+      "logoUri": "",
+      "rating": "TV-G",
+      "broadcastOnid": 30592,
+      "broadcastTsid": 1,
+      "broadcastSid": 103
+    },
+    {
+      "serviceId": "ott-004",
+      "name": "Skate 4K",
+      "type": "TYPE_OTT",
+      "metadataUri": "local://metadata/ott-004",
+      "streamUri": "http://sample.vodobox.net/skate_phantom_flex_4k/skate_phantom_flex_4k.m3u8",
+      "description": "Skate 4K stream",
+      "logoUri": "",
+      "rating": "TV-G",
+      "broadcastOnid": 30592,
+      "broadcastTsid": 1,
+      "broadcastSid": 104
+    },
+    {
+      "serviceId": "ott-005",
+      "name": "Uplynk Channel",
+      "type": "TYPE_OTT",
+      "metadataUri": "local://metadata/ott-005",
+      "streamUri": "https://content.uplynk.com/channel/3353345690554b0e8de31bcd6b73fc37.m3u8",
+      "description": "Uplynk live channel",
+      "logoUri": "",
+      "rating": "TV-G",
+      "broadcastOnid": 30592,
+      "broadcastTsid": 1,
+      "broadcastSid": 105
+    }
+  ]
+}
